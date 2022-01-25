@@ -1,18 +1,35 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <section class="container">
+    <section class="home">
+      <img class="main-image" src="@/assets/5.jpeg" />
+      <div class="home-content">
+        <h1>Fabryka Wnętrz</h1>
+        <p class="about-us-text">
+          Jesteśmy firmą, która od wielu lat zajmuje się projektowaniem wnętrz.
+          Każde zlecenie traktujemy jak nowe wyzwanie, które pozwala nam na
+          wdrażanie kolejnych unikatowych inspiracji. Zespół Fabryki Wnętrz to
+          młodzi ludzie z pasją, dla których zadowolenie Klienta jest najwyższą
+          wartością. Podczas współpracy dzielimy się z Państwem swoim
+          doświadczeniem zdobywanym przez cały okres naszej działalności. W
+          związku z czym mają Państwo pewność, że zaproponowane przez nas
+          rozwiązania są oparte o rzetelną wiedzę oraz najnowsze techniki
+          zdobnicze.
+        </p>
+      </div>
+    </section>
+  </section>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
-  },
+  components: {},
 };
 </script>
+
+<style scoped>
+@import "../styles/app.css";
+@import "../styles/home.css";
+</style>
