@@ -1,7 +1,7 @@
 <template>
   <section class="container mb-4">
     <section class="offer">
-      <img class="offer-image" src="@/assets/5.jpeg" />
+      <img class="main-image" src="@/assets/5.jpeg" />
       <div class="content-1">
         <h1 class="m-0">Etapy współpracy</h1>
       </div>
