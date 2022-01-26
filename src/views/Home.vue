@@ -4,6 +4,7 @@
       <img class="main-image" src="@/assets/5.jpeg" />
       <div class="home-content">
         <h1>Fabryka Wnętrz</h1>
+        <!-- <img src="@/assets/fabrykanet.png" class="fw-image" /> -->
         <p class="about-us-text">
           Jesteśmy firmą, która od wielu lat zajmuje się projektowaniem wnętrz.
           Każde zlecenie traktujemy jak nowe wyzwanie, które pozwala nam na

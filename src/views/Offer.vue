@@ -62,10 +62,10 @@
   </section>
   <section class="container pb-4">
     <p>
-      <span class="content-4">Na Państwa życzenie</span> możemy również objąć
-      projekt nadzorem autorskim oraz towarzyszyć Państwu w trudach związanych z
-      zakupami niezbędnych do stworzenia wymarzonego wnętrz materiałów
-      budowlanych czy dekoracyjnych.
+      <span style="font-weight: bold">Na Państwa życzenie</span> możemy również
+      objąć projekt nadzorem autorskim oraz towarzyszyć Państwu w trudach
+      związanych z zakupami niezbędnych do stworzenia wymarzonego wnętrz
+      materiałów budowlanych czy dekoracyjnych.
     </p>
     <p>
       Projektowanie wnętrz to nie tylko nasz zawód, ale i pasją od wielu lat.
@@ -88,9 +88,8 @@
 @import "../styles/offer.css";
 
 .offer-image {
-  height: 90%;
+  height: 100%;
   position: absolute;
   right: 0;
-  top: 0;
 }
 </style>
