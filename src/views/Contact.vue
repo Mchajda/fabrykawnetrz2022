@@ -1,7 +1,7 @@
 <template>
   <section class="" style="padding-top: 10rem; height: 50vh">
     <div class="container d-flex mb-4">
-      <img src="@/assets/bartek.jpg" class="profile-image" />
+      <img src="@/assets/bartek.jpg" class="profile-image shadow-3" />
       <div class="container-flex align-center ml-4">
         <div class="col-6">
           <h1>Bartłomiej Chajda</h1>

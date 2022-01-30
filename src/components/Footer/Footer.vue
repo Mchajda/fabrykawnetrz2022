@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="col-3 d-flex justify-center">
-      <img src="@/assets/fabrykanet.png" class="fw-footer-image" />
+      <!-- <img src="@/assets/fabrykanet.png" class="fw-footer-image" /> -->
     </div>
     <div class="col-3 d-flex justify-center">
       © Copyright FABRYKA WNĘTRZ 2015

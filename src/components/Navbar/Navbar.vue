@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="navbar">
+    <div class="navbar shadow-2">
       <div class="nav-item">
         <router-link to="/"
           ><img src="@/assets/logofw.png" class="logo"

@@ -19,9 +19,31 @@ p {
   background-color: #383838;
 }
 
+.shadow-1 {
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+.shadow-2 {
+  filter: drop-shadow(0 0 0.5rem black);
+}
+
+.shadow-3 {
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
 h1 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -112,6 +134,10 @@ h1 {
 
 .p-4 {
   padding: 4rem;
+}
+
+.p-2 {
+  padding: 2rem;
 }
 
 .pb-4 {
