@@ -58,60 +58,27 @@
     <h2>Zaufali nam:</h2>
 
     <div class="container-flex">
-      <div class="col-3 d-flex justify-center">
-        <div class="p-2">
-          <h3>Piotr Rokicki</h3>
-          <p style="">
-            Polecam zdecydowanie wszystkim szukającym nowych inspiracji na
+      <Referral
+        name="Piotr Rokicki"
+        text="Polecam zdecydowanie wszystkim szukającym nowych inspiracji na
             odmianę domowego wnętrza. Sam skorzystałem i jestem bardzo
-            zadowolony.
-          </p>
-          <div>
-            <img
-              v-for="n in 5"
-              :key="n"
-              src="@/assets/star.svg"
-              style="padding: 0.5rem"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="col-3 d-flex justify-center">
-        <div class="p-2">
-          <h3>Piotr Rokicki</h3>
-          <p style="">
-            Polecam zdecydowanie wszystkim szukającym nowych inspiracji na
+            zadowolony."
+        :stars="5"
+      />
+      <Referral
+        name="Piotr Rokicki"
+        text="Polecam zdecydowanie wszystkim szukającym nowych inspiracji na
             odmianę domowego wnętrza. Sam skorzystałem i jestem bardzo
-            zadowolony.
-          </p>
-          <div>
-            <img
-              v-for="n in 5"
-              :key="n"
-              src="@/assets/star.svg"
-              style="padding: 0.5rem"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="col-3 d-flex justify-center">
-        <div class="p-2">
-          <h3>Piotr Rokicki</h3>
-          <p style="">
-            Polecam zdecydowanie wszystkim szukającym nowych inspiracji na
+            zadowolony."
+        :stars="5"
+      />
+      <Referral
+        name="Piotr Rokicki"
+        text="Polecam zdecydowanie wszystkim szukającym nowych inspiracji na
             odmianę domowego wnętrza. Sam skorzystałem i jestem bardzo
-            zadowolony.
-          </p>
-          <div>
-            <img
-              v-for="n in 5"
-              :key="n"
-              src="@/assets/star.svg"
-              style="padding: 0.5rem"
-            />
-          </div>
-        </div>
-      </div>
+            zadowolony."
+        :stars="5"
+      />
     </div>
   </section>
 
@@ -120,10 +87,11 @@
 
 <script>
 import CooperationStage from "@/components/CooperationStage/CooperationStage.vue";
+import Referral from "@/components/Referral/Referral.vue";
 
 export default {
   name: "Cooperation",
-  components: { CooperationStage },
+  components: { CooperationStage, Referral },
 };
 </script>
 
