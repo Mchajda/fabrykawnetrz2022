@@ -9,77 +9,49 @@
   </section>
 
   <section>
-    <div class="container-flex pb-4">
-      <div class="col-6 d-flex align-center">
-        <div>
-          <h1>Etap 1.</h1>
-          <p>
-            Bazą każdego projektu są informacje uzyskane od Klienta. Podczas
-            rozmowy dowiadujemy się o jakich wnętrzach marzy, jakie ma
-            przyzwyczajenia, styl życia oraz jakie ma oczekiwania do wnętrza. W
-            tym celu prosimy też czasem o kilka przykładowych zdjęć dotyczących
-            stylu w jakim ma być wykończone mieszkanie lub dom.
-          </p>
-        </div>
-      </div>
-      <div class="col-6 d-flex justify-right">
-        <img src="@/assets/ph3.jpg" class="image w-75 shadow-2" />
-      </div>
-    </div>
+    <CooperationStage
+      image="ph3.jpg"
+      container="container-flex"
+      title="Etap 1."
+      text="Bazą każdego projektu są informacje uzyskane od Klienta. Podczas rozmowy
+        dowiadujemy się o jakich wnętrzach marzy, jakie ma przyzwyczajenia, styl
+        życia oraz jakie ma oczekiwania do wnętrza. W tym celu prosimy też
+        czasem o kilka przykładowych zdjęć dotyczących stylu w jakim ma być
+        wykończone mieszkanie lub dom."
+    />
 
-    <div class="container-flex pb-4">
-      <div class="col-6 d-flex justify-left">
-        <img src="@/assets/1.jpeg" class="image w-75 shadow-2" />
-      </div>
-      <div class="col-6 d-flex align-center">
-        <div>
-          <h1>Etap 2.</h1>
-          <p>
-            Ten etap to spotkanie w miejscu, którego wnętrze mamy zaprojektować.
+    <CooperationStage
+      image="1.jpeg"
+      container="container-flex-reverse"
+      title="Etap 2."
+      text="Ten etap to spotkanie w miejscu, którego wnętrze mamy zaprojektować.
             Robimy tak nie tylko w celu zwymiarowania pomieszczenia, ale także
             po to aby poczuć energię jaka tam panuje, gdyż każde projektowanie
-            wnętrz ma dla Nas inny, osobisty charakter.
-          </p>
-        </div>
-      </div>
-    </div>
+            wnętrz ma dla Nas inny, osobisty charakter."
+    />
 
-    <div class="container-flex pb-4">
-      <div class="col-6 d-flex align-center">
-        <div>
-          <h1>Etap 3.</h1>
-          <p>
-            Przygotowanie wizualizacji. Jest to etap na który Klient najbardziej
+    <CooperationStage
+      image="ph2.jpg"
+      container="container-flex"
+      title="Etap 3."
+      text="Przygotowanie wizualizacji. Jest to etap na który Klient najbardziej
             czeka. W tym momencie właśnie zobaczy jak będzie wyglądało jego
             mieszkanie bądź dom. Jest to też moment na dyskusję o kolorach,
             strukturach, podłogach, układzie pomieszczeń lub mebli. Słuchamy
             ewentualnych uwag Klienta i wszystkie poprawki w projekcie nanosimy
-            bezpłatnie.
-          </p>
-        </div>
-      </div>
-      <div class="col-6 d-flex justify-right">
-        <img src="@/assets/ph2.jpg" class="image w-75 shadow-2" />
-      </div>
-    </div>
+            bezpłatnie."
+    />
 
-    <div class="container-flex pb-4">
-      <div class="col-6 d-flex justify-left">
-        <img src="@/assets/3.jpeg" class="image w-75 shadow-2" />
-      </div>
-      <div class="col-6 d-flex align-center">
-        <div>
-          <h1>Etap 4.</h1>
-          <p>
-            Po zaakceptowanym przez Klienta projekcie, przygotowujemy
+    <CooperationStage
+      image="3.jpeg"
+      container="container-flex-reverse"
+      title="Etap 4."
+      text="Po zaakceptowanym przez Klienta projekcie, przygotowujemy
             dokumentację techniczną zawierającą zestawienie materiałów, rozrys
             przyłączy hydraulicznych i elektrycznych, zwymiarowane zabudowy,
             wizualizację , schemat układnaia płytek oraz inne nie zbędne do
-            wykonania prac.
-          </p>
-        </div>
-      </div>
-    </div>
+            wykonania prac."
+    />
   </section>
 
   <section class="container">
@@ -146,7 +118,14 @@
   <router-view></router-view>
 </template>
 
-<script></script>
+<script>
+import CooperationStage from "@/components/CooperationStage/CooperationStage.vue";
+
+export default {
+  name: "Cooperation",
+  components: { CooperationStage },
+};
+</script>
 
 <style>
 @import "../styles/app.css";

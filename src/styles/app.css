@@ -8,6 +8,7 @@
 }
 
 p {
+  font-weight: 100;
   padding-bottom: 1rem;
   font-size: 18px;
 }
@@ -61,12 +62,30 @@ h3 {
   flex: 1;
 }
 
+.container-flex-reverse {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
 .d-flex {
   display: flex;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .justify-left {
@@ -79,6 +98,10 @@ h3 {
 
 .align-center {
   align-items: center;
+}
+
+.w-100 {
+  width: 100% !important;
 }
 
 .w-75 {
