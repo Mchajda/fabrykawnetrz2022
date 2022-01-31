@@ -13,6 +13,12 @@ p {
   font-size: 18px;
 }
 
+li {
+  font-weight: 100;
+  padding-bottom: 0.5rem;
+  font-size: 18px;
+}
+
 #app {
   font-family: Montserrat, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -70,6 +76,26 @@ h3 {
   justify-content: space-evenly;
   flex: 1;
   flex-direction: row-reverse;
+}
+
+.content-1 {
+  padding: 40px;
+  background-color: grey;
+  z-index: 12;
+  width: 40rem;
+}
+
+.content-2 {
+  padding: 30px;
+  background-color: grey;
+  z-index: 12;
+  max-width: 100%;
+}
+
+.content-4 {
+  padding: 10px;
+  background-color: grey;
+  z-index: 12;
 }
 
 .d-flex {
@@ -133,10 +159,12 @@ h3 {
 
 .col-6 {
   width: 49%;
+  padding: 1rem;
 }
 
 .col-3 {
   width: 33%;
+  padding: 1rem;
 }
 
 .mb-2 {
@@ -145,6 +173,10 @@ h3 {
 
 .mb-4 {
   margin-bottom: 4rem;
+}
+
+.mb-0 {
+  margin-bottom: 0rem;
 }
 
 .mt-4 {
@@ -185,4 +217,52 @@ h3 {
 
 .bg-dark {
   background-color: #181818;
+}
+
+@media only screen and (max-width: 1500px) {
+  .container-flex {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+
+  .col-6 {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1265px) {
+  .container-flex {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .col-6 {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .container-flex {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+
+  .col-6 {
+    width: 100%;
+    padding: 1rem;
+  }
 }

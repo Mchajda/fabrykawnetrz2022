@@ -1,15 +1,9 @@
 <template>
-  <section class="container mb-4">
-    <section class="offer">
-      <img class="main-image" src="@/assets/5.jpeg" />
-      <div class="content-1">
-        <h1 class="m-0">Oferta</h1>
-      </div>
-    </section>
-  </section>
-  <section class="container-flex mb-4">
+  <LandingSection title="Oferta" />
+
+  <section class="container-flex justify-center mb-4">
     <div class="col-6">
-      <div class="pb-2">
+      <div class="pb-2 shadow-1">
         <h2 class="content-2">Fabryka Wnętrz swoim Klientom oferuje:</h2>
       </div>
 
@@ -26,9 +20,10 @@
         <li>doradztwo w zakresie doboru materiałów dekoracyjnych.</li>
       </ul>
     </div>
+
     <div class="col-6">
-      <div class="pb-2">
-        <h2 class="content-2">
+      <div class="mb-2 content-2 shadow-1">
+        <h2 class="mb-0">
           W ramach projektu Klient otrzymuje rysunki techniczne uwzględniające:
         </h2>
       </div>
@@ -60,6 +55,7 @@
       </ul>
     </div>
   </section>
+
   <section class="container pb-4">
     <p>
       <span style="font-weight: bold">Na Państwa życzenie</span> możemy również
@@ -81,7 +77,14 @@
   <router-view></router-view>
 </template>
 
-<script></script>
+<script>
+import LandingSection from "@/components/LandingSection/LandingSection.vue";
+
+export default {
+  name: "Cooperation",
+  components: { LandingSection },
+};
+</script>
 
 <style>
 @import "../styles/app.css";
