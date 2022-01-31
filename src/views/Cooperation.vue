@@ -1,12 +1,5 @@
 <template>
-  <section class="container mb-4">
-    <section class="offer">
-      <img class="main-image" src="@/assets/5.jpeg" />
-      <div class="content-1">
-        <h1 class="m-0">Etapy współpracy</h1>
-      </div>
-    </section>
-  </section>
+  <LandingSection title="Etapy współpracy" />
 
   <section>
     <CooperationStage
@@ -88,10 +81,11 @@
 <script>
 import CooperationStage from "@/components/CooperationStage/CooperationStage.vue";
 import Referral from "@/components/Referral/Referral.vue";
+import LandingSection from "@/components/LandingSection/LandingSection.vue";
 
 export default {
   name: "Cooperation",
-  components: { CooperationStage, Referral },
+  components: { CooperationStage, Referral, LandingSection },
 };
 </script>
 
