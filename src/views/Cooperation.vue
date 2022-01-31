@@ -57,7 +57,7 @@
   <section class="container">
     <h2>Zaufali nam:</h2>
 
-    <div class="container-flex">
+    <div class="container d-flex">
       <Referral
         name="Piotr Rokicki"
         text="Polecam zdecydowanie wszystkim szukającym nowych inspiracji na

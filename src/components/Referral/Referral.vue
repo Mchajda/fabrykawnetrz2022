@@ -1,8 +1,8 @@
 <template>
-  <div class="col-3 d-flex justify-center">
-    <div class="p-2">
+  <div class="col-3 d-flex justify-center w-sm-100 p-sm-0 mb-sm-2">
+    <div class="p-2 p-sm-0">
       <h3 class="">{{ name }}</h3>
-      <p class="">
+      <p class="p-sm-0">
         {{ text }}
       </p>
       <div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex align-center p-4 bg-dark">
+  <section class="container-fluid d-flex align-center p-4 bg-dark">
     <div class="col-3 d-flex justify-center">
       <div>
         <h2>Fabryka Wnętrz</h2>
@@ -13,7 +13,7 @@
     <div class="col-3 d-flex justify-center">
       © Copyright FABRYKA WNĘTRZ 2015
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
