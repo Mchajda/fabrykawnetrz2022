@@ -1,17 +1,14 @@
 <template>
-  <section class="" style="padding-top: 10rem; height: 50vh">
-    <div class="container d-flex mb-4">
-      <img src="@/assets/bartek.jpg" class="profile-image shadow-3" />
-      <div class="container-flex align-center ml-4">
-        <div class="col-6">
+  <section class="container-flex h50vh hsm75vh" style="padding-top: 10rem">
+    <div class="d-flex d-flex-md justify-md-center w-100">
+      <div class="col-3 col-md-6 col-sm-12 d-flex-md justify-sm-center">
+        <img src="@/assets/bartek.jpg" class="profile-image shadow-3" />
+      </div>
+      <div class="col-9 col-md-6 d-flex-sm justify-sm-center">
+        <div>
           <h1>Bartłomiej Chajda</h1>
           <h3>biuro@fabrykawnetrz.net</h3>
           <h3>tel. 502-445-239</h3>
-        </div>
-        <div class="col-6">
-          <h2>Fabryka Wnętrz</h2>
-          <h4>26-300 Opoczno</h4>
-          <h4>ul. Św. Jana 33</h4>
         </div>
       </div>
     </div>
