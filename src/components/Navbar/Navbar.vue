@@ -3,7 +3,7 @@
     <div class="navbar shadow-2">
       <div class="nav-item">
         <router-link to="/"
-          ><img src="@/assets/logofw.png" class="logo"
+          ><img src="@/assets/logofw.png" class="logo shadow-2"
         /></router-link>
       </div>
       <div class="nav-item"><router-link to="/oferta">Oferta</router-link></div>
