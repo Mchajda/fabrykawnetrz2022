@@ -1,5 +1,5 @@
 <template>
-  <div :class="['justify-between align-center pb-4', container]">
+  <div :class="[container, 'justify-between align-center pb-4 pb-sm-2']">
     <div class="col-6">
       <h1>{{ title }}</h1>
       <p>
@@ -9,7 +9,7 @@
 
     <div
       :class="[
-        'col-6 d-flex justify-md-center w-sm-100 d-flex-md',
+        'col-6 d-flex d-flex-md justify-md-center w-sm-100',
         container == 'container-flex-reverse' ? '' : 'justify-right',
       ]"
     >
