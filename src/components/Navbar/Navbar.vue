@@ -60,9 +60,10 @@ export default {
     },
   },
   mounted: function () {
-    if (navigator.userAgent.indexOf("Safari") !== -1) {
-      console.log("not safari");
-    } else {
+    if (
+      (navigator.userAgent.indexOf("iPhone") !== -1) |
+      (navigator.userAgent.indexOf("Macintosh") !== -1)
+    ) {
       const expandableMenu = document.getElementById("expandableMenu");
       expandableMenu.removeAttribute("class");
     }
