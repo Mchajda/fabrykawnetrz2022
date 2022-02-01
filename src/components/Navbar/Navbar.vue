@@ -26,7 +26,7 @@
           /></a>
         </div>
       </div>
-      <div id="expandableMenu">
+      <div id="expandableMenu" class="transition">
         <div class="wrapper wrapperMenu">
           <ul class="pt-1">
             <li><router-link to="/oferta">Oferta</router-link></li>
@@ -52,14 +52,20 @@ export default {
       if (expandableMenu.clientHeight) {
         expandableMenu.style.height = 0;
         toggleButtonIcon.src = "http://localhost:8080/img/menu.723604de.svg";
-        console.log(toggleButtonIcon.src);
       } else {
         const wrapper = document.querySelector(".wrapper");
         expandableMenu.style.height = wrapper.clientHeight + "px";
         toggleButtonIcon.src = "http://localhost:8080/img/close.28638fa8.svg";
-        console.log(toggleButtonIcon.src);
       }
     },
+  },
+  mounted: function () {
+    if (navigator.userAgent.indexOf("Safari") !== -1) {
+      console.log("not safari");
+    } else {
+      const expandableMenu = document.getElementById("expandableMenu");
+      expandableMenu.removeAttribute("class");
+    }
   },
 };
 </script>

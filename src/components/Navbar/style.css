@@ -36,13 +36,16 @@ li {
 }
 
 #expandableMenu {
+  height: 0;
+  overflow: hidden;
+}
+
+.transition {
   -moz-transition: height 0.5s;
   -ms-transition: height 0.5s;
   -o-transition: height 0.5s;
   -webkit-transition: height 0.5s;
   transition: height 0.5s;
-  height: 0;
-  overflow: hidden;
 }
 
 @media only screen and (max-width: 1164px) {
