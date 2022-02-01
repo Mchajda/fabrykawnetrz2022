@@ -1,12 +1,3 @@
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: grey;
-  filter: drop-shadow(0 0.5rem 0.5rem black);
-}
-
 li {
   padding: 0.5rem;
 }

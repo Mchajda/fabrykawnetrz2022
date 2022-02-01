@@ -13,6 +13,14 @@ p {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
 li {
   font-weight: 100;
   padding-bottom: 0.5rem;
