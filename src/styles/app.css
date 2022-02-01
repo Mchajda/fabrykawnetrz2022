@@ -202,6 +202,18 @@ h3 {
   margin-left: 4rem;
 }
 
+.mr-0 {
+  margin-right: 0rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
 .p-4 {
   padding: 4rem;
 }
@@ -232,6 +244,10 @@ h3 {
 
 .bg-dark {
   background-color: #181818;
+}
+
+.hidden {
+  display: none;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -374,5 +390,13 @@ h3 {
   .col-sm-12 {
     width: 100%;
     padding: 1rem;
+  }
+
+  .sm-hidden {
+    display: none;
+  }
+
+  .sm-show {
+    display: block;
   }
 }

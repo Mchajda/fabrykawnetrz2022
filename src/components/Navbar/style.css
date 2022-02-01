@@ -31,6 +31,17 @@ a:hover {
   margin-right: 6rem;
 }
 
+#grow {
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  height: 0;
+  overflow: hidden;
+  z-index: 100;
+}
+
 @media only screen and (max-width: 1164px) {
 }
 
