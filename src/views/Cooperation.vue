@@ -86,6 +86,14 @@ import LandingSection from "@/components/LandingSection/LandingSection.vue";
 export default {
   name: "Cooperation",
   components: { CooperationStage, Referral, LandingSection },
+
+  mounted: function () {
+    const toggleButtonIcon = document.querySelector("img#toggleMenuIcon");
+    const expandableMenu = document.getElementById("expandableMenu");
+
+    expandableMenu.style.height = 0;
+    toggleButtonIcon.src = "http://localhost:8080/img/menu.723604de.svg";
+  },
 };
 </script>
 
