@@ -1,7 +1,7 @@
 <template>
   <div :class="[container, 'justify-between align-center pb-4 pb-sm-2']">
     <div class="col-6">
-      <h1>{{ title }}</h1>
+      <h2>{{ title }}</h2>
       <p>
         {{ text }}
       </p>

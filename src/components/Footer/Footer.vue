@@ -1,8 +1,8 @@
 <template>
-  <section class="container-fluid d-flex align-center p-4 bg-dark">
+  <section class="container-fluid d-flex align-center p-4 p-sm-3 bg-dark">
     <div class="col-3 d-flex justify-center">
       <div>
-        <h2>Fabryka Wnętrz</h2>
+        <h4 class="company-name pb-1">Fabryka Wnętrz</h4>
         <h4>26-300 Opoczno</h4>
         <h4>ul. Św. Jana 33</h4>
       </div>

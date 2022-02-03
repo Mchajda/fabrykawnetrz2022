@@ -21,7 +21,7 @@
   </section>
 
   <section class="container mt-4 mb-4">
-    <h1>Nasi partnerzy:</h1>
+    <h2>Nasi partnerzy:</h2>
   </section>
 </template>
 
