@@ -3,7 +3,7 @@
 
   <section>
     <CooperationStage
-      image="ph3.jpg"
+      image="ph3.webp"
       container="container-flex"
       title="Etap 1."
       text="Bazą każdego projektu są informacje uzyskane od Klienta. Podczas rozmowy
@@ -14,7 +14,7 @@
     />
 
     <CooperationStage
-      image="1.jpeg"
+      image="1.webp"
       container="container-flex-reverse"
       title="Etap 2."
       text="Ten etap to spotkanie w miejscu, którego wnętrze mamy zaprojektować.
@@ -24,7 +24,7 @@
     />
 
     <CooperationStage
-      image="ph2.jpg"
+      image="ph2.webp"
       container="container-flex"
       title="Etap 3."
       text="Przygotowanie wizualizacji. Jest to etap na który Klient najbardziej
@@ -36,7 +36,7 @@
     />
 
     <CooperationStage
-      image="3.jpeg"
+      image="3.webp"
       container="container-flex-reverse"
       title="Etap 4."
       text="Po zaakceptowanym przez Klienta projekcie, przygotowujemy

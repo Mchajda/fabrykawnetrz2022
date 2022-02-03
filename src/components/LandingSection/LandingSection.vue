@@ -1,7 +1,7 @@
 <template>
   <section class="container mb-4 mb-sm-2">
     <section class="offer">
-      <img class="main-image" src="@/assets/5.jpeg" />
+      <img class="main-image" src="@/assets/5.webp" />
       <div class="content-1 shadow-2">
         <h1 class="m-0">{{ title }}</h1>
         <p v-if="text" class="about-us-text">

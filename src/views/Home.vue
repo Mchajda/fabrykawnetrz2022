@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <section class="home">
-      <img class="main-image" src="@/assets/5.jpeg" />
+      <img class="main-image" src="@/assets/5.webp" />
       <div class="home-content">
         <h1>Fabryka Wnętrz</h1>
         <!-- <img src="@/assets/fabrykanet.png" class="fw-image" /> -->
