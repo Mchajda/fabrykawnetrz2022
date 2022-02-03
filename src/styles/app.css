@@ -311,6 +311,11 @@ h3 {
     padding: 1rem;
   }
 
+  .col-md-6 {
+    width: 49%;
+    padding: 1rem;
+  }
+
   .justify-md-center {
     justify-content: center;
   }
@@ -329,13 +334,16 @@ h3 {
     height: 100vh;
   }
 
-  .col-md-6 {
-    width: 49%;
-    padding: 1rem;
+  .mb-md-2 {
+    margin-bottom: 2rem;
   }
 }
 
 @media only screen and (max-width: 790px) {
+  p {
+    font-size: 1rem;
+  }
+
   h1 {
     margin-bottom: 1rem;
     font-size: 2.2rem;

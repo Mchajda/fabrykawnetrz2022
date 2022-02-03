@@ -1,6 +1,6 @@
 <template>
   <section class="container-flex h50vh hsm75vh" style="padding-top: 10rem">
-    <div class="d-flex d-flex-md justify-md-center w-100">
+    <div class="d-flex d-flex-md justify-md-center w-100 pt-1">
       <div class="col-3 col-md-6 col-sm-12 d-flex-md justify-sm-center">
         <img src="@/assets/bartek.webp" class="profile-image shadow-3" />
       </div>

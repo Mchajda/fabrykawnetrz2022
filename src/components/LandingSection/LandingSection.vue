@@ -1,5 +1,5 @@
 <template>
-  <section class="container mb-4 mb-sm-2">
+  <section class="container mb-4 mb-md-2">
     <section class="offer">
       <img class="main-image" src="@/assets/5.webp" />
       <div class="content-1 shadow-2">
