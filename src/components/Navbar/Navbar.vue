@@ -6,7 +6,7 @@
       >
         <div class="nav-item">
           <router-link to="/"
-            ><img src="@/assets/logofw.png" class="logo shadow-2"
+            ><img src="@/assets/logofw.png" class="logo shadow-2" alt="logo"
           /></router-link>
         </div>
         <div class="d-flex d-flex-md align-center justify-right sm-hidden">

@@ -13,7 +13,11 @@
         container == 'container-flex-reverse' ? '' : 'justify-right',
       ]"
     >
-      <img :src="require(`@/assets/${image}`)" class="image w-100 shadow-2" />
+      <img
+        :src="require(`@/assets/${image}`)"
+        class="image w-100 shadow-2"
+        alt="zdjęcie etapu"
+      />
     </div>
   </div>
 </template>

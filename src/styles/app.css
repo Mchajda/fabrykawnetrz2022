@@ -98,21 +98,21 @@ h3 {
 
 .content-1 {
   padding: 40px;
-  background-color: grey;
+  background-color: #696969;
   z-index: 12;
   width: 40rem;
 }
 
 .content-2 {
   padding: 30px;
-  background-color: grey;
+  background-color: #696969;
   z-index: 12;
   max-width: 100%;
 }
 
 .content-4 {
   padding: 10px;
-  background-color: grey;
+  background-color: #696969;
   z-index: 12;
 }
 
