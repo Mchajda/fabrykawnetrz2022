@@ -27,6 +27,11 @@
   object-fit: cover;
 }
 
+.partner-image {
+  width: 15rem;
+  margin: 1rem;
+}
+
 @media only screen and (max-width: 1164px) {
 }
 

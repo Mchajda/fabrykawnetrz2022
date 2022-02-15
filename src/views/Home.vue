@@ -22,15 +22,19 @@
 
   <section class="container mt-4 mb-4">
     <h2>Nasi partnerzy:</h2>
+
+    <div class="w-100"><PartnersList /></div>
   </section>
 </template>
 
 <script>
 // @ is an alias to /src
+import PartnersList from "@/components/PartnersList/PartnersList.vue";
 
 export default {
   name: "Home",
-  components: {},
+
+  components: { PartnersList },
 };
 </script>
 
