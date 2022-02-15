@@ -33,6 +33,10 @@
 }
 
 @media only screen and (max-width: 1164px) {
+  .partner-image {
+    width: 12rem;
+    margin: 1rem;
+  }
 }
 
 @media only screen and (max-width: 790px) {
@@ -42,5 +46,10 @@
 
   .home-content {
     padding: 1.5rem;
+  }
+
+  .partner-image {
+    width: 8rem;
+    margin: 0.7rem;
   }
 }
