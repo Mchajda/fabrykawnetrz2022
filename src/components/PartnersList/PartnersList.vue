@@ -9,7 +9,7 @@
     >
       <img
         :src="require(`@/assets/partners/${partner.image}`)"
-        alt="partner"
+        :alt="partner.name"
         class="partner-image"
     /></a>
   </div>
