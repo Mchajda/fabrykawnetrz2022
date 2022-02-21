@@ -7,8 +7,13 @@
         <h4>ul. Św. Jana 33</h4>
       </div>
     </div>
-    <div class="col-3 d-flex justify-center">
-      <!-- <img src="@/assets/fabrykanet.png" class="fw-footer-image" /> -->
+    <div class="col-3 d-flex justify-evenly align-center">
+      <a href="https://www.facebook.com/fabrykawnetrz.net" target="_blank"
+        ><img src="@/assets/facebook.png" class="mr-md-2" style="width: 2rem"
+      /></a>
+      <a href="https://www.instagram.com/fabrykawnetrz.net_/" target="_blank"
+        ><img src="@/assets/instagram.png" class="" style="width: 2rem"
+      /></a>
     </div>
     <div class="col-3 d-flex justify-center">
       © Copyright FABRYKA WNĘTRZ 2015

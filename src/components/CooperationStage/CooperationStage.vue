@@ -1,5 +1,5 @@
 <template>
-  <div :class="[container, 'justify-between align-center pb-4 pb-sm-0']">
+  <div :class="[container, 'justify-between align-center pb-2 pb-sm-0 pt-1']">
     <div class="col-6">
       <h2>{{ title }}</h2>
       <p>
