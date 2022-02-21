@@ -20,7 +20,7 @@
     </section>
   </section>
 
-  <section class="container mt-4 mb-4">
+  <section class="container mt-4 mb-4 m-sm-1">
     <h2>Nasi partnerzy:</h2>
 
     <div class="w-100"><PartnersList /></div>
@@ -35,6 +35,18 @@ export default {
   name: "Home",
 
   components: { PartnersList },
+  methods: {
+    toggleMenuInit() {
+      const toggleButtonIcon = document.querySelector("img#toggleMenuIcon");
+      const expandableMenu = document.getElementById("expandableMenu");
+
+      expandableMenu.style.height = 0;
+      toggleButtonIcon.src = "http://localhost:8080/img/menu.723604de.svg";
+    },
+  },
+  mounted: function () {
+    this.toggleMenuInit();
+  },
 };
 </script>
 

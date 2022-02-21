@@ -1,9 +1,9 @@
 <template>
   <LandingSection title="Oferta" />
 
-  <section class="container-flex justify-center mb-4">
+  <section class="container-flex justify-center mb-2 m-sm-1">
     <div class="col-6">
-      <div class="pb-2 shadow-1">
+      <div class="pb-2 pb-sm-0 shadow-1">
         <h2 class="content-2">Fabryka Wnętrz swoim Klientom oferuje:</h2>
       </div>
 
@@ -22,8 +22,8 @@
     </div>
 
     <div class="col-6">
-      <div class="mb-2 content-2 shadow-1">
-        <h2 class="mb-0">
+      <div class="pb-2 pb-sm-0 shadow-1">
+        <h2 class="content-2">
           W ramach projektu Klient otrzymuje rysunki techniczne uwzględniające:
         </h2>
       </div>
@@ -56,7 +56,7 @@
     </div>
   </section>
 
-  <section class="container pb-4">
+  <section class="container pb-4 pb-sm-2">
     <p>
       <span style="font-weight: bold">Na Państwa życzenie</span> możemy również
       objąć projekt nadzorem autorskim oraz towarzyszyć Państwu w trudach
