@@ -165,7 +165,7 @@ export default {
       const expandableMenu = document.getElementById("expandableMenu");
 
       expandableMenu.style.height = 0;
-      toggleButtonIcon.src = "http://localhost:8080/img/menu.723604de.svg";
+      toggleButtonIcon.src = "http://fabrykawnetrz.net/img/menu.723604de.svg";
     },
 
     getRandomRefferals() {

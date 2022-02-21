@@ -1,5 +1,5 @@
 <template>
-  <section class="container-flex h50vh hsm75vh" style="padding-top: 10rem">
+  <section class="container-flex h100vh" style="padding-top: 10rem">
     <div class="d-flex d-flex-md justify-md-center w-100 pt-1">
       <div class="col-3 col-md-3 col-sm-12 d-flex-md justify-sm-center">
         <img
@@ -44,7 +44,7 @@ export default {
     const expandableMenu = document.getElementById("expandableMenu");
 
     expandableMenu.style.height = 0;
-    toggleButtonIcon.src = "http://localhost:8080/img/menu.723604de.svg";
+    toggleButtonIcon.src = "http://fabrykawnetrz.net/img/menu.723604de.svg";
   },
 };
 </script>

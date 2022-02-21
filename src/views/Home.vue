@@ -40,8 +40,10 @@ export default {
       const toggleButtonIcon = document.querySelector("img#toggleMenuIcon");
       const expandableMenu = document.getElementById("expandableMenu");
 
+      console.log(toggleButtonIcon, toggleButtonIcon.src);
+
       expandableMenu.style.height = 0;
-      toggleButtonIcon.src = "http://localhost:8080/img/menu.723604de.svg";
+      toggleButtonIcon.src = "http://fabrykawnetrz.net/img/menu.723604de.svg";
     },
   },
   mounted: function () {

@@ -51,13 +51,12 @@ export default {
 
       if (expandableMenu.clientHeight) {
         expandableMenu.style.height = 0;
-        toggleButtonIcon.src =
-          "http://fabrykawnetrz.cfolks.pl/img/menu.723604de.svg";
+        toggleButtonIcon.src = "http://fabrykawnetrz.net/img/menu.723604de.svg";
       } else {
         const wrapper = document.querySelector(".wrapper");
         expandableMenu.style.height = wrapper.clientHeight + "px";
         toggleButtonIcon.src =
-          "http://fabrykawnetrz.cfolks.pl/img/close.28638fa8.svg";
+          "http://fabrykawnetrz.net/img/close.28638fa8.svg";
       }
     },
   },
