@@ -4,10 +4,21 @@
       <div
         class="d-flex d-flex-md d-flex-sm justify-between align-center mr-0 w-100"
       >
-        <div class="nav-item">
-          <router-link to="/"
-            ><img src="@/assets/logofw.png" class="logo shadow-2" alt="logo"
-          /></router-link>
+        <div class="nav-item m-sm-0">
+          <router-link to="/" class="d-flex d-flex-md d-flex-sm"
+            ><img src="@/assets/logofw.png" class="logo shadow-2" alt="logo" />
+            <div class="d-flex-col" style="margin-top: 0.2rem">
+              <img
+                src="@/assets/fabrykawnetrz.png"
+                class="logo2 shadow-2"
+                alt="logo"
+              /><img
+                src="@/assets/projektowanieiaranzacja.png"
+                class="logo2 shadow-2"
+                alt="logo"
+              />
+            </div>
+          </router-link>
         </div>
         <div class="d-flex d-flex-md align-center justify-right sm-hidden">
           <div class="nav-item">
@@ -18,6 +29,16 @@
           </div>
           <div class="nav-item">
             <router-link to="/kontakt">Kontakt</router-link>
+          </div>
+          <div class="nav-item">
+            <a href="https://www.facebook.com/fabrykawnetrz.net" target="_blank"
+              ><img src="@/assets/facebook.png" class="mr-1 nav__social"
+            /></a>
+            <a
+              href="https://www.instagram.com/fabrykawnetrz.net_/"
+              target="_blank"
+              ><img src="@/assets/instagram.png" class="nav__social"
+            /></a>
           </div>
         </div>
         <div class="nav-item hidden sm-show mr-0">
@@ -34,6 +55,20 @@
               <router-link to="/etapy-wspolpracy">Etapy współpracy</router-link>
             </li>
             <li><router-link to="/kontakt">Kontakt</router-link></li>
+            <li>
+              <a
+                href="https://www.facebook.com/fabrykawnetrz.net"
+                target="_blank"
+                ><img src="@/assets/facebook.png" class="mr-1 nav__social"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/fabrykawnetrz.net_/"
+                target="_blank"
+                ><img src="@/assets/instagram.png" class="nav__social"
+              /></a>
+            </li>
           </ul>
         </div>
       </div>

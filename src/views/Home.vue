@@ -3,7 +3,7 @@
     <section class="home">
       <img class="main-image" src="@/assets/5.webp" alt="Główne zdjęcie" />
       <div class="home-content">
-        <h1>Fabryka Wnętrz</h1>
+        <img src="@/assets/fabrykawnetrz.png" class="logo__header" alt="logo" />
         <!-- <img src="@/assets/fabrykanet.png" class="fw-image" /> -->
         <p class="about-us-text">
           Jesteśmy firmą, która od wielu lat zajmuje się projektowaniem wnętrz.

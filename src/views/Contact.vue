@@ -8,7 +8,9 @@
           alt="Bartłomiej Chajda"
         />
       </div>
-      <div class="col-9 col-md-9 d-flex-sm justify-sm-center">
+      <div
+        class="col-9 col-md-9 d-flex align-center d-flex-sm justify-sm-center"
+      >
         <div>
           <h1>Bartłomiej Chajda</h1>
           <h3>biuro@fabrykawnetrz.net</h3>

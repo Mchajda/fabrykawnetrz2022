@@ -127,6 +127,11 @@ h4 {
   display: flex;
 }
 
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .d-flex-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -232,6 +237,14 @@ h4 {
 
 .mr-0 {
   margin-right: 0rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
 }
 
 .m-1 {

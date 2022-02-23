@@ -21,9 +21,18 @@ li {
   -webkit-filter: drop-shadow(5px 5px 5px black);
   filter: drop-shadow(5px 5px 5px black);
 }
+
 .logo {
-  width: 3rem;
-  margin-right: 6rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.logo2 {
+  width: 18rem;
+}
+
+.nav__social {
+  width: 2rem;
 }
 
 #expandableMenu {
@@ -40,6 +49,23 @@ li {
 }
 
 @media only screen and (max-width: 1164px) {
+  .logo {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  .logo2 {
+    width: 12rem;
+  }
+
+  .nav-item {
+    margin-right: 1.7rem;
+    font-size: 0.9rem;
+  }
+
+  .nav__social {
+    width: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 790px) {
@@ -49,11 +75,14 @@ li {
   }
 
   .logo {
-    width: 2rem;
-    margin-right: 4rem;
+    width: 3rem;
+  }
+
+  .logo2 {
+    width: 12rem;
   }
 
   .nav-item {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
   }
 }
