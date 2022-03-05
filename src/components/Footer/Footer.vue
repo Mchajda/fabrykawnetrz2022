@@ -5,14 +5,21 @@
         <h4 class="company-name pb-1">Fabryka Wnętrz</h4>
         <h4>26-300 Opoczno</h4>
         <h4>ul. Św. Jana 33</h4>
+        <div class="mt-2">
+          <a href="https://www.facebook.com/fabrykawnetrz.net" target="_blank"
+            ><img src="@/assets/facebook.png" class="mr-2" style="width: 2rem"
+          /></a>
+          <a
+            href="https://www.instagram.com/fabrykawnetrz.net_/"
+            target="_blank"
+            ><img src="@/assets/instagram.png" class="" style="width: 2rem"
+          /></a>
+        </div>
       </div>
     </div>
     <div class="col-3 d-flex justify-evenly align-center">
-      <a href="https://www.facebook.com/fabrykawnetrz.net" target="_blank"
-        ><img src="@/assets/facebook.png" class="mr-md-2" style="width: 2rem"
-      /></a>
-      <a href="https://www.instagram.com/fabrykawnetrz.net_/" target="_blank"
-        ><img src="@/assets/instagram.png" class="" style="width: 2rem"
+      <a href="https://rzetelnafirma.pl/" target="_blank" noopener norefferer
+        ><img src="@/assets/rzetelnafirma/160x75.png" alt="Rzetelna firma"
       /></a>
     </div>
     <div class="col-3 d-flex justify-center">
